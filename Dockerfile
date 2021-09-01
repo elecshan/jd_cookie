@@ -2,12 +2,12 @@ FROM golang:1.16-alpine3.13 as builder
 
 
 LABEL name="jd_cookie server"
-LABEL version="3.0.1"
+LABEL version="3.0.7"
 LABEL author="scjtqs <scjtqs@qq.com>"
-LABEL maintainer="scjtqs <scjtqs@qq.com>"
+LABEL maintainer="root"
 LABEL description="simple to get jd cookie"
 
-ARG Version="v3.0.1"
+ARG Version="v3.0.7"
 
 ADD . /src
 #ENV GOPROXY "http://goproxy.cn,direct"
